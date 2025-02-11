@@ -1,0 +1,272 @@
+{
+	"name": "Derp XML 8.2",
+	"folder": "gm82",
+	"version": "1.0",
+	"author": "PatrickGh3 && renex",
+	"date": "11/02/2025",
+	"license": "MIT License - Copyright (c) 2016 Patrick Traynor",
+	"description": "",
+	"helpfile": "",
+	"hidden": false,
+	"dependencies": [
+		"Game Maker 8.2 Core"
+	],
+	"files": [
+		{
+			"filename": "derpXml82.gml",
+			"origname": "derpXml82.gml",
+			"kind": 2,
+			"init": "__DerpXml_Init",
+			"final": "",
+			"functions": [
+				{
+					"name": "DerpXmlRead_CloseFile",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlRead_CloseFile()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlRead_CurGetAttribute",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlRead_CurGetAttribute(keyString)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlRead_CurRawValue",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlRead_CurRawValue()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlRead_CurType",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlRead_CurType()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlRead_CurValue",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlRead_CurValue()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlRead_LoadString",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlRead_LoadFromString(xmlString)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlRead_OpenFile",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlRead_OpenFile(xmlFilePath)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlRead_Read",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlRead_Read()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlRead_UnloadString",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlRead_UnloadString()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_Attribute",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlWrite_Attribute(key, value)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_CloseTag",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlWrite_CloseTag()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_Comment",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlWrite_Comment(commentText)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_Config",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlWrite_Config(indentString, newlineString)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_GetString",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlWrite_GetString()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_LeafElement",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXMlWrite_LeafElement(tagName, text)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_New",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlWrite_New()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_OpenTag",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlWrite_OpenTag(tagName)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_Text",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlWrite_Text(text)",
+					"hidden": false,
+					"argtypes": [
+						2
+					],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXmlWrite_UnloadString",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "DerpXmlWrite_UnloadString()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "DerpXml_ThrowError",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "",
+					"hidden": true,
+					"argtypes": null,
+					"returntype": 2
+				},
+				{
+					"name": "__DerpXml_Init",
+					"extname": "",
+					"calltype": 2,
+					"helpline": "",
+					"hidden": true,
+					"argtypes": null,
+					"returntype": 2
+				}
+			],
+			"constants": [
+				{
+					"name": "DerpXmlType_StartOfFile",
+					"value": "\"StartOfFile\"",
+					"hidden": false
+				},
+				{
+					"name": "DerpXmlType_OpenTag",
+					"value": "\"OpenTag\"",
+					"hidden": false
+				},
+				{
+					"name": "DerpXmlType_CloseTag",
+					"value": "\"CloseTag\"",
+					"hidden": false
+				},
+				{
+					"name": "DerpXmlType_Text",
+					"value": "\"Text\"",
+					"hidden": false
+				},
+				{
+					"name": "DerpXmlType_Whitespace",
+					"value": "\"Whitespace\"",
+					"hidden": false
+				},
+				{
+					"name": "DerpXmlType_EndOfFile",
+					"value": "\"EndOfFile\"",
+					"hidden": false
+				},
+				{
+					"name": "DerpXmlType_Comment",
+					"value": "\"Comment\"",
+					"hidden": false
+				}
+			]
+		}
+	]
+}

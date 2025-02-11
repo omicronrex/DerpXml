@@ -1,0 +1,9 @@
+
+<root>
+  <a>derp</a>
+  <b>derp</b>
+  <c/>
+  <d cat="bag"></d>
+  <e cat="bag" cat2="bag2"/>
+  <!--comment-->
+</root>
